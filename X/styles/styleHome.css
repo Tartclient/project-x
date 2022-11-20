@@ -71,4 +71,9 @@ p {
 footer {
     background-color: var(--secondary-color);
     color: var(--accent1-color);
+    position: absolute; /* makes a footer stay in it's place*/
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:100px;
 }
