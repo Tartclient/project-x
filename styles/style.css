@@ -1,0 +1,21 @@
+/* Base CSS styles for mobile devices */
+body {
+    font-size: 14px;
+    /* Other mobile styles */
+}
+
+/* Styles for medium screens (tablets, etc.) */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 16px;
+        /* Other medium screen styles */
+    }
+}
+
+/* Styles for large screens (desktops, etc.) */
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 18px;
+        /* Other large screen styles */
+    }
+}
